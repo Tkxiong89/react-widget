@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Orbitron&family=Raleway:wght@400;700&display=swap');
+
+.clock {
+    font-size: 28px;
+    color: white;
+    font-family: 'Orbitron';
+    width: 550px;
+    height: 94px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: orange;
+    background-size: cover;
+    background-position-y: 20%;
+    font-weight: bold;
+}
+
+.clock p{
+    margin: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
