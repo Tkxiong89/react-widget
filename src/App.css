@@ -3,3 +3,8 @@
   width: 550px;
   height: 100vh;
 }
+
+.interactive{
+  display: flex;
+  justify-content: space-around;
+}
