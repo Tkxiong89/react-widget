@@ -2,7 +2,18 @@ import './App.css';
 import Clock from './components/clock/Clock';
 import Weather from './components/weather/Weather';
 import Tabs from './components/tabs/Tabs';
+import AutoComplete from './components/auto-complete/AutoComplete';
 
+const names = [
+  'Abba',
+  'Barney',
+  'Barbara',
+  'Jeff',
+  'Jenny',
+  'Sarah',
+  'Sally',
+  'Xander'
+];
 
 const panes = [
   {title: 'one', content: 'I am the first'},
@@ -16,6 +27,7 @@ function App() {
       <Weather />
       <div className="interactive">
         <Tabs panes={panes}/>
+        <AutoComplete names={names}/>
       </div>
     </div>
   );

@@ -1,10 +1,16 @@
 
+  .tabs{
+    width: 240px;
+    height: 200px;
+  }
+
 .tab-header{
     width: 200px;
     height: 30px;
     margin: 0 20px;
     display: flex;
     justify-content: space-between;
+    margin-left: -20px;
   }
   
   .tab-header > li{
@@ -35,14 +41,11 @@
     color: white;
   }
   
-  .active{
+  li .active{
     font-weight: bold;
+    border-bottom: none;
   }
   
-  .tabs{
-    width: 240px;
-    height: 200px;
-  }
   
   .tab-content{
     font-weight: bold;
